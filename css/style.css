@@ -56,7 +56,7 @@ body{
     margin: 3rem auto;
     color: var(--list-items);
     border-radius: 0.3rem;
-    padding: 0 3rem;
+    padding: 0 3rem 3rem;
 }
 
 .container{
@@ -74,11 +74,13 @@ body{
 .add_task{
     background-color: var(--primary-button);
     border-color: var(--primary-button);
+    cursor: pointer;
 }
 
 .add_section{
     background-color: var(--primary-color);
     color: var(--secondary-button);
+    cursor: pointer;
 }
 
 .list_section{
@@ -147,3 +149,12 @@ body{
     border-color: var(--mobile-tag);
 }
 
+.website{
+    background-color: var(--website-tag);
+    border-color: var(--website-tag);
+}
+
+.sales{
+    background-color: var(--sales-tag);
+    border-color: var(--sales-tag);
+}
