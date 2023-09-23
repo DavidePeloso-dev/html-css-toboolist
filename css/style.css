@@ -2,4 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*Reset*/
+
+:root{
+    --primary-color: white;
+    --primary-background: #F6F8F9;
+    --logo_name: #031732; 
+    --editorial-tag: #14AAF5;
+    --goals-tag: #AB5DE6;
+    --recruiting-tag: #2CC6AB;
+    --mobile-tag: #FF9B00;
+    --website-tag: #EC4A9D;
+    --sales-tag: #A3D116;
+    --primary-button: #14AAF5;
+    --secondary-button: #C4CBD0;
+    --check-color: #2CC6AB;
+    --cross-color: #FF4040 ;
+    --list-items: #434851 ;
+}
+/*Variables*/
+
+body{
+    background-color: var(--primary-background);
+}
+
+#header{
+    background-color: var(--primary-color)
+}
+
+.logo{
+    padding: 1rem;
+}
+
+.logo_image{
+    vertical-align: middle;
+}
+.logo_name{
+    vertical-align: middle;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: var(--logo_name);
+    display: inline-block;
 }
