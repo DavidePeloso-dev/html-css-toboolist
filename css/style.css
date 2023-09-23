@@ -127,6 +127,7 @@ body{
 
 .list_section_items{
     margin-top: 1.5rem;
+    list-style: none;
 }
 
 .editorial{
