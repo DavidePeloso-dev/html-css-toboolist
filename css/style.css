@@ -84,3 +84,66 @@ body{
 .list_section{
     margin-top: 2rem;
 }
+
+.check{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 2px solid;
+    border-radius: 50%;
+    color: var(--check-color);
+    vertical-align: middle;
+    font-size: 0.7rem;
+    text-align: center;
+} 
+
+.cross{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 2px solid;
+    border-radius: 50%;
+    color: var(--cross-color);
+    vertical-align: middle;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.item{
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.tag{
+    color: var(--button-text);
+    border: 1px solid;
+    padding: 0.3rem 1rem;
+    vertical-align: middle;
+    border-radius: 1rem;
+
+}
+
+.list_section_items{
+    margin-top: 1.5rem;
+}
+
+.editorial{
+    background-color: var(--editorial-tag);
+    border-color: var(--editorial-tag);
+}
+
+.goals{
+    background-color: var(--goals-tag);
+    border-color: var(--goals-tag);
+}
+
+.recruiting{
+    background-color: var(--recruiting-tag);
+    border-color: var(--recruiting-tag);
+}
+
+.mobile{
+    background-color: var(--mobile-tag);
+    border-color: var(--mobile-tag);
+}
+
